@@ -3,7 +3,7 @@ nav:
 - Intro: index.md
 - Auctions: auctions.md
 - Developers:
-  - Architecture: developerss/architecture.md
+  - Architecture: developers/architecture.md
   - Resolving addresses: developers/resolving-addresses.md
 theme:
   name: material
