@@ -1,6 +1,6 @@
 site_name: kujira.domains
 nav:
-- Intro: intro.md
+- Intro: index.md
 - Auctions: auctions.md
 - Devs:
   - Architecture: devs/architecture.md
