@@ -2,9 +2,9 @@ site_name: kujira.domains
 nav:
 - Intro: index.md
 - Auctions: auctions.md
-- Devs:
-  - Architecture: devs/architecture.md
-  - Resolving addresses: devs/resolving-addresses.md
+- Developers:
+  - Architecture: developerss/architecture.md
+  - Resolving addresses: developers/resolving-addresses.md
 theme:
   name: material
   font:
