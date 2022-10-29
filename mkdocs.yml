@@ -4,6 +4,7 @@ nav:
 - Auctions: auctions.md
 - Developers:
   - Architecture: developers/architecture.md
+  - Metadata: developers/metadata.md
   - Resolving addresses: developers/resolving-addresses.md
 theme:
   name: material
