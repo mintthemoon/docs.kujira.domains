@@ -10,9 +10,9 @@ KNS is implemented as 3 smart contracts: Registry, Registrar, and Auctions.
 
 ### Registry
 The Registry contract manages two types of data: Resolvers and Records.
-A Resolver maps a domain root (e.g. `kuji`) to an `admin` address that is
+A Resolver maps a domain root (e.g. `kuji`) to an admin address that is
 authorized to create, update, and delete Records matching that root. Resolvers
-also have a list of allowed `RecordKind` types.
+also have a list of allowed RecordKind types.
 
 ### Registrar
 The Registrar contract is an extended CW721 NFT contract with expiring tokens and a

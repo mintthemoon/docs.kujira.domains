@@ -13,8 +13,7 @@ This query will fail if no reverse record exists for the address.
 
 ### Examples: CLI
 ```bash
-kujirad query wasm state smart <registry_addr> \
-    '{"kujira_addr": {"addr": "kujira..."}'
+kujirad query wasm state smart <registry_addr> '{"kujira_addr": {"addr": "kujira..."}'
 ```
 
 ### Examples: JS
@@ -37,13 +36,11 @@ The query will fail if no reverse record exists for the address.
 
 ### Examples: CLI
 ```bash
-kujirad query wasm state smart <registry_addr> \
-    '{"name": {"addr": "kujira..."}'
+kujirad query wasm state smart <registry_addr> '{"name": {"addr": "kujira..."}'
 ```
 
 ```bash
-kujirad query wasm state smart <registry_addr> \
-    '{"name": {"addr": "osmo..."}'
+kujirad query wasm state smart <registry_addr> '{"name": {"addr": "osmo..."}'
 ```
 
 ### Examples: JS
@@ -74,13 +71,11 @@ The query will fail if no record exists for the domain or if the record kind is 
 
 ### Examples: CLI
 ```bash
-kujirad query wasm state smart <registry_addr> \
-    '{"addr": {"name": "mintthemoon.kuji"}'
+kujirad query wasm state smart <registry_addr> '{"addr": {"name": "mintthemoon.kuji"}'
 ```
 
 ```bash
-kujirad query wasm state smart <registry_addr> \
-    '{"addr": {"name": "mintthemoon.kuji", "prefix": "osmo"}'
+kujirad query wasm state smart <registry_addr> '{"addr": {"name": "mintthemoon.kuji", "prefix": "osmo"}'
 ```
 
 ### Examples: JS
