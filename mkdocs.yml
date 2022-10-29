@@ -5,7 +5,7 @@ nav:
 - Developers:
   - Architecture: developers/architecture.md
   - Metadata: developers/metadata.md
-  - Resolving addresses: developers/resolving-addresses.md
+  - Names and addresses: developers/names-and-addresses.md
 theme:
   name: material
   font:
