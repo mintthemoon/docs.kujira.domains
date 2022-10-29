@@ -17,6 +17,11 @@ kujirad query wasm state smart <registry_addr> \
     '{"kujira_addr": {"addr": "kujira..."}'
 ```
 
+### Examples: JS
+```javascript
+registrar.kujiraAddr({ addr: "kujira..." })
+```
+
 ## Name lookups
 ### Description
 Use a name lookup to get the name associated with an address. In addition to a Kujira
@@ -41,6 +46,15 @@ kujirad query wasm state smart <registry_addr> \
     '{"name": {"addr": "osmo..."}'
 ```
 
+### Examples: JS
+```javascript
+registrar.name({ addr: "kujira..." })
+```
+
+```javascript
+registrar.name({ addr: "stars..." })
+```
+
 ## Address lookups
 ### Description
 Use an address lookup to get the address associated with a domain. By default
@@ -55,16 +69,25 @@ The query will fail if no record exists for the domain or if the record kind is 
 ```
 
 ```json
-{"addr": "osmo..."}
+{"addr": "cosmos..."}
 ```
 
 ### Examples: CLI
 ```bash
 kujirad query wasm state smart <registry_addr> \
-    '{"addr": {"addr": "kujira..."}'
+    '{"addr": {"name": "mintthemoon.kuji"}'
 ```
 
 ```bash
 kujirad query wasm state smart <registry_addr> \
-    '{"addr": {"addr": "kujira...", "prefix": "osmo"}'
+    '{"addr": {"name": "mintthemoon.kuji", "prefix": "osmo"}'
+```
+
+### Examples: JS
+```javascript
+registrar.addr({ name: "mintthemoon.kuji" })
+```
+
+```javascript
+registrar.addr({ name: "mintthemoon.kuji", prefix: "secret" })
 ```
